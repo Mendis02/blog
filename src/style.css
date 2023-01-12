@@ -1,0 +1,8 @@
+.nav{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    /* padding: 20px 36px; */
+
+    background-color: #282D35;
+}
