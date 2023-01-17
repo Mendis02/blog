@@ -19,14 +19,8 @@ const PostsMain = () => {
 
     return(
         <div>
-        
-        <ul>
-          {post.map(user => (
-            <li key={user.id}>{user.name}</li>
-          ))}
-        </ul>
-      
-    </div>
+          {post.map(p => < post id={p.id} title={p.title} intro={p.body}/>)}
+        </div>
     )
 }
 
