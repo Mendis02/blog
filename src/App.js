@@ -1,6 +1,6 @@
 import React from "react"
 import Navbar from "./Components/Navbar"
-
+import PostsMain from "./Components/Posts";
 import Main from './Components/Main';
 
 
@@ -9,8 +9,8 @@ export default function App(){
         <div>
             
             <Navbar />
-            <Main /> 
-            <h1>VALORANT</h1>
+            <PostsMain />
+            
         
         </div>
     )
