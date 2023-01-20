@@ -6,7 +6,6 @@ import {
     Route,
     Link
   } from "react-router-dom";
-import PostsMain from "./Posts";
 
 const API_ENDPOINT = 'https://jsonplaceholder.typicode.com/posts/'
 

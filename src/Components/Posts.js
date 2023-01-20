@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import PostDetails from "./PostsDetails";
 import {
     BrowserRouter as Router,
     Switch,
