@@ -12,3 +12,28 @@
     color:aliceblue;
 }
 
+<<<<<<< HEAD
+=======
+.card{
+    height: auto;
+    padding: 20px 150px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.card-title{
+    font-size: 35px;
+}
+
+.post-details{
+    padding:20px 150px;
+}
+
+.post-details--title{
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.post-details--body{
+    font-size: 20px;
+}
+>>>>>>> master
