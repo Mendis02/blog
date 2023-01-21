@@ -1,0 +1,9 @@
+{
+  "projects": {
+<<<<<<< HEAD
+    "default": "blog1-82b93"
+=======
+    "default": "blog-9bef9"
+>>>>>>> master
+  }
+}
