@@ -6,8 +6,8 @@ import {
 } from "react-router-dom";
 
 import Navbar from "./Components/Navbar"
-import PostsMain from "./Components/Posts";
-import PostDetails from "./Components/PostsDetails";
+import PostsMain from "./Screens/Posts";
+import PostDetails from "./Screens/PostsDetails";
 
 export default function App() {
     return (
@@ -15,6 +15,8 @@ export default function App() {
             <Navbar />
             <Router>
                 <Switch>
+                    {/* what does the switch do? Cause on click the pages switches without errors even without the 'Switch' */}
+
                     <Route exact path="/" >
                         <PostsMain />
                     </Route>
