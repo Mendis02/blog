@@ -15,8 +15,12 @@ export default function App() {
             <Navbar />
             <Router>
                 <Switch>
-                    <Route exact path="/" children={PostsMain} />
-                    {/* <Route path="/:id" children={<PostDetails />} /> */}
+                    <Route exact path="/" >
+                        <PostsMain />
+                    </Route>
+                    <Route path="/:id" >
+                        <PostDetails />
+                    </Route>
                 </Switch>
             </Router>
         </div >
